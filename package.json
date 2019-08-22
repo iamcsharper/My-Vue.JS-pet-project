@@ -1,0 +1,49 @@
+{
+  "name": "vue-demo",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Ilya <ilyha19@live.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15",
+    "v-click-outside": "^2.1.3",
+    "vue": "^2.5.11",
+    "vue-async-computed": "^3.7.0",
+    "vue-axios": "^2.1.4",
+    "vue-headful": "^2.0.1",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.1.1",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "obfuscator-loader": "^1.1.2",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-obfuscator": "^0.18.3"
+  }
+}
